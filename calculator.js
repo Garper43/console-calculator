@@ -24,7 +24,7 @@ function asin(a) {
 }
 
 function acos(a) {
-    return parseFloat( (Math.cos(a) / (2*pi) * 360).toFixed(13) );
+    return parseFloat( (Math.acos(a) / (2*pi) * 360).toFixed(13) );
 }
 
 function atan(a) {
@@ -43,4 +43,8 @@ function sqrt(a) {
 
 function pow(a, b) {
     return parseFloat(Math.pow(a, b).toFixed(13));
+}
+
+function rad(deg) {
+    return deg / 360 * 2 * pi;
 }

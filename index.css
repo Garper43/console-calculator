@@ -1,0 +1,20 @@
+.mContainer {
+    width: min-content;
+    height: min-content;
+    position: relative;
+}
+
+.mDisplay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    z-index: 1;
+}
+
+.mInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
