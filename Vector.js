@@ -22,4 +22,8 @@ class Vector {
     findAngle(v) {
         return acos((this.multiply(v))/(this.length * v.length));
     }
+
+    getNormal() {
+        return 1;
+    }
 }
